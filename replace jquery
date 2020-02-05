@@ -1,1 +1,56 @@
+<script>
+var $j = jQuery.noConflict();
+$j(document).ready(function() {
+$j(".es_txt_email").attr("placeholder", "Enter Your Email");
+});
+</script>
+=====================================================================
+<script>
+var $j = jQuery.noConflict();
+$j(document).ready(function(){
 
+$j(".woocommerce-message-text").text(function () {
+    return $j(this).text().replace('View cart “The View From Above [Idioma Inglés]” has been added to your cart.', 'Product added sucessfully'); 
+	return $j(this).text().replace('View cart', " "); 
+});
+	
+});
+</script>
+===========================================================
+
+<script>
+var $j = jQuery.noConflict();
+$j(document).ready(function(){
+
+$j(".woocommerce-message-text").text(function () {
+    return $j(this).text().replace(' “The View From Above [Idioma Inglés]” has been added to your cart.', 'Product added sucessfully'); 
+	return $j(this).text().replace('View cart', " "); 
+});
+	
+});
+</script>
+===========================================================================
+<script>
+var $j = jQuery.noConflict();
+$j(document).ready(function(){
+
+$j(".cart-empty").text(function () {
+    return $j(this).text().replace('Your cart is currently empty.', 'Your cart is empty. Shop Now..'); 
+	 
+});
+	
+});
+</script>
+===================================================
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
